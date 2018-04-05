@@ -1,4 +1,4 @@
-var usrg = require('./lib/express-useragent');
+var usrg = require('./lib/express-useragent-exposer');
 var UserAgent = usrg.UserAgent;
 
 module.exports = new UserAgent();

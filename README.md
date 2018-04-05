@@ -1,4 +1,4 @@
-[![build status](https://secure.travis-ci.org/angelcustodio/express-useragent.png)](http://travis-ci.org/angelcustodio/express-useragent)
+[![build status](https://secure.travis-ci.org/angelcustodio/express-useragent-exposer.png)](http://travis-ci.org/angelcustodio/express-useragent-exposer)
 
 # Fast Middleware User-Agent Exposer for [NodeJS](http://nodejs.org/)
 
@@ -7,7 +7,7 @@
 ## Installation
 
 Installation is done using the Node Package Manager (npm). If you don't have npm installed on your system you can download it from [npmjs.org](http://npmjs.org/)
-To install express-useragent:
+To install express-useragent-exposer:
 ```bash
     $ npm install express-useragent-exposer --save
 ```
@@ -18,7 +18,7 @@ To install express-useragent:
 
 ```js
 var http = require('http')
-  , useragent = require('express-useragent');
+  , useragent = require('express-useragent-exposer');
 
 var srv = http.createServer(function (req, res) {
   var source = req.headers['user-agent'],
@@ -35,7 +35,7 @@ srv.listen(3000);
 ```js
 var express = require('express');
 var app = express();
-var useragent = require('express-useragent');
+var useragent = require('express-useragent-exposer');
 
 app.use(useragent.express());
 app.get('/', function(req, res){
@@ -63,7 +63,7 @@ Module provides details such as the following:
 
 ## Accessing the user-agent
 
-If you are using `express` or `connect`, then `express-useragent`
+If you are using `express` or `connect`, then `express-useragent-exposer`
 provides an easy way to access the user-agent as:
 
 - `req.useragent` from your app server
@@ -71,14 +71,14 @@ provides an easy way to access the user-agent as:
 
 ## Client side
 
-* Clone the repo: `git clone git://github.com/angelcustodio/express-useragent.git`
+* Clone the repo: `git clone git://github.com/angelcustodio/express-useragent-exposer.git`
 * Or install with [Bower](http://twitter.github.com/bower): `bower install express-useragent-exposer`.
 
-The client side version of express-useragent available in the `/lib` subdirectory.
+The client side version of express-useragent-exposer available in the `/lib` subdirectory.
 
 #### Include file in your HTML – the minimum required for this plugin are:
 ```
-    <script type="text/javascript" src="express-useragent.js"></script>
+    <script type="text/javascript" src="express-useragent-exposer.js"></script>
 ```
 #### Execute the plugin:
 ```javascript

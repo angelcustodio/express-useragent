@@ -1,11 +1,11 @@
 {
   "name": "express-useragent-exposer",
   "description": "Fast User-Agent Exposer",
-  "version": "1.0.0",
-  "homepage": "https://github.com/angelcustodio/express-useragent/",
+  "version": "2.0.0",
+  "homepage": "https://github.com/angelcustodio/express-useragent-exposer/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/angelcustodio/express-useragent.git"
+    "url": "git://github.com/angelcustodio/express-useragent-exposer.git"
   },
   "license": "MIT",
   "author": {
@@ -20,10 +20,10 @@
     }
   ],
   "keywords": [
-    "useragent",
     "express",
-    "browser",
-    "middleware"
+    "middleware",
+    "node",
+    "useragent"
   ],
   "main": "./index.js",
   "scripts": {

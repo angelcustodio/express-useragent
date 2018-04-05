@@ -6,7 +6,7 @@ push:
 	git push origin master
 
 lint:
-	jshint lib/express-useragent.js
+	jshint lib/express-useragent-exposer.js
 
 http:
 	node test/http.js
