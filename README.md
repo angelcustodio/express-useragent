@@ -1,5 +1,3 @@
-(PENDING)
-
 [![build status](https://secure.travis-ci.org/angelcustodio/express-useragent.png)](http://travis-ci.org/angelcustodio/express-useragent)
 
 # Fast Middleware User-Agent Exposer for [NodeJS](http://nodejs.org/)
