@@ -19,13 +19,13 @@
     function render() {
         var mobile = userAgent.isMobile ? 'Yes' : 'No';
         var tpl = '<table><tbody><tr>' +
-                '<td class="table-header">Platform:</td><td>' + userAgent.platform + '</td>' +
+                '<td class="table-header">OS:</td><td>' + userAgent.os + '</td>' +
                 '</tr><tr>' +
-                '<td class="table-header">Os:</td><td>' + userAgent.os + '</td>' +
+                '<td class="table-header">OS version:</td><td>' + userAgent.osversion + '</td>' +
                 '</tr><tr>' +
                 '<td class="table-header">Browser:</td><td>' + userAgent.browser + '</td>' +
                 '</tr><tr>' +
-                '<td class="table-header">Browser version:</td><td>' + userAgent.version + '</td>' +
+                '<td class="table-header">Browser version:</td><td>' + userAgent.browserversion + '</td>' +
                 '</tr><tr>' +
                 '<td class="table-header">Mobile:</td><td>' + mobile + '</td>' +
                 '</tr></tbody></table>';

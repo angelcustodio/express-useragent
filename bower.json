@@ -1,7 +1,7 @@
 {
   "name": "express-useragent-exposer",
   "description": "Fast User-Agent Exposer",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "homepage": "https://github.com/angelcustodio/express-useragent-exposer/",
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
     {
       "name": "Aitor Palacios",
       "url": "https://github.com/apalzab"
+    },
+    {
+      "name": "Sergio Revueltas",
+      "url": "https://github.com/sergiorevueltas"
     }
   ],
   "keywords": [
